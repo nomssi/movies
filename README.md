@@ -1,2 +1,2 @@
 # movies
-OpenSAP UI5 Evolve
+OpenSAP course Evolve UI5 
