@@ -1,0 +1,18 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" 
+                 controllerName="idv.movies.controller.NotFound"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>notFoundTitle}">
+		
+		<content>
+			<l:VerticalLayout id="generalDetails" class="sapUiMediumMarginEnd sapUiSmallMarginBottom">
+				<core:Icon src="sap-icon://video" tooltip="video" size="3rem" class="sapUiMediumMarginBottom"/>
+				<Label text="{i18n>notFoundText}" design="Bold"/>
+				<Label text="{i18n>notFoundDescription}" />
+			</l:VerticalLayout>
+		</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
